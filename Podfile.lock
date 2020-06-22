@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AppCenter (3.1.1):
+    - AppCenter/Analytics (= 3.1.1)
+    - AppCenter/Crashes (= 3.1.1)
+  - AppCenter/Analytics (3.1.1):
+    - AppCenter/Core
+  - AppCenter/Core (3.1.1)
+  - AppCenter/Crashes (3.1.1):
+    - AppCenter/Core
+  - "NSObject+Rx (5.1.0)":
+    - RxSwift (~> 5.1)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxSwift (5.1.1)
+  - SwiftEx/Int (0.3.75):
+    - "NSObject+Rx"
+    - RxAlamofire
+    - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - AppCenter
+  - SwiftEx/Int (from `https://gitlab.com/seriyvolk83/SwiftEx.git`, branch `covid19`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppCenter
+    - "NSObject+Rx"
+    - RxAlamofire
+    - RxSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  SwiftEx:
+    :branch: covid19
+    :git: https://gitlab.com/seriyvolk83/SwiftEx.git
+
+CHECKOUT OPTIONS:
+  SwiftEx:
+    :commit: 483974e7d71070f352997ff07b9eac1702b82c5d
+    :git: https://gitlab.com/seriyvolk83/SwiftEx.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppCenter: 513d32888854d67d8cfbd3a8db16aeb5fb2e2a75
+  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftEx: c288addcf5daa2a278c95b32b5f5464498aa6c10
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: c7d1f627c7487c87b5056b511f8b2057fdfd6da8
+
+COCOAPODS: 1.8.4
