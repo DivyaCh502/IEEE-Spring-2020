@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CCurve25519",
+        "repositoryURL": "https://github.com/christophhagen/CCurve25519.git",
+        "state": {
+          "branch": null,
+          "revision": "f27fa9a2cf0c61a3cb9d9a03b3d3d801ccc64b32",
+          "version": "1.0.4"
+        }
+      },
+      {
+        "package": "TCNClient",
+        "repositoryURL": "https://github.com/seriyvolk83/tcn-client-ios.git",
+        "state": {
+          "branch": "fix2",
+          "revision": "45ce356d2ea379a86ee8996d4379fade6ddde5c8",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
