@@ -1,0 +1,6 @@
+[
+    {"title": "We use Bluetooth signals to determine if you are near another HutchTrace user.", "icon": "01-mobile"},
+    {"title": "This proximity data is encrypted and stored on secure Fred Hutch servers.", "icon": "02-secure"},
+    {"title": "If you are tested positive, we will generate a contact trace and call you for confirmation.", "icon": "03-sick"},
+    {"title": "EH&S may notify other HutchTrace users about potential exposure while keeping your identity private.", "icon": "04-alert"}
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appCenterSecret</key>
+	<string>e0ab2c7d-34ce-44ca-92d5-45ac52381d0d</string>
+	<key>clientId</key>
+	<string>4j5v3fd8a76c6477n04oijoq04</string>
+	<key>cognitoLoginUrl</key>
+	<string>https://tc-tcn-tracker.auth.us-east-1.amazoncognito.com/oauth2/authorize?response_type=code&amp;client_id=%clientId%&amp;redirect_uri=app://callback</string>
+	<key>cognitoGetTokenUrl</key>
+	<string>https://tc-tcn-tracker.auth.us-east-1.amazoncognito.com/oauth2/token?grant_type=authorization_code&amp;client_id=%clientId%&amp;redirect_uri=app://callback&amp;code=</string>
+	<key>cognitoGetRefreshTokenUrl</key>
+	<string>https://tc-tcn-tracker.auth.us-east-1.amazoncognito.com/oauth2/token?grant_type=refresh_token&amp;client_id=%clientId%&amp;redirect_uri=app://callback&amp;refresh_token=</string>
+	<key>baseUrl</key>
+	<string>https://ib9ntcqot3.execute-api.us-east-1.amazonaws.com/v4</string>
+	<key>backgroundFetchInterval</key>
+	<integer>3600</integer>
+	<key>reminderNotificationHour</key>
+	<integer>-1</integer>
+	<key>reminderNotificationMinute</key>
+	<integer>-1</integer>
+</dict>
+</plist>

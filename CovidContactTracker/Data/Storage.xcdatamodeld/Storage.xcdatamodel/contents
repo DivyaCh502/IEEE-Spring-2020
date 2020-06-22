@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TemporaryContactNumber" representedClassName="TemporaryContactNumber" syncable="YES" codeGenerationType="class">
+        <attribute name="bytes" attributeType="Binary"/>
+        <attribute name="closestEstimatedDistanceMeters" optional="YES" attributeType="Double" usesScalarValueType="NO"/>
+        <attribute name="foundDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastSeenDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="wasPotentiallyInfectious" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="bytes"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="TemporaryContactNumber" positionX="-63" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>
