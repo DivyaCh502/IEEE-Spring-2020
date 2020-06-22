@@ -1,4 +1,4 @@
-# Covid Contact Tracking
+# Covid Contact Tracker
 
 ## Deployment dependencies
 
