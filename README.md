@@ -10,7 +10,7 @@ Before performing a Deployment, it is assumed that the following have been set u
 
 ## Organization of Submission
 - `src` – this directory contains the source code 
-- `src/CovidContactTracking.xcworkspace` – Xcode workspace to open.
+- `src/CovidContactTracker.xcworkspace` – Xcode workspace to open.
 - `docs` – this directory contains the documents for this application, including this
 deployment guide.
 
@@ -66,7 +66,7 @@ Run `pod install` to update the libraries.
 
 To build and run the app on a real device you will need to do the following:
 
-1. Open `src/CovidContactTracking.xcworkspace` in Xcode
-2. Select *CovidContactTracking* scheme from the top left drop down list.
+1. Open `src/CovidContactTracker.xcworkspace` in Xcode
+2. Select *CovidContactTracker* scheme from the top left drop down list.
 3. Select your iPhone/iPad from the top left dropdown list.
 4. Click menu Product -> Run (Cmd+R)
